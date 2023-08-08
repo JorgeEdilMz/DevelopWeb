@@ -1,0 +1,18 @@
+#contenedor{
+    border: solid 2px;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+    /*background-color: blanchedalmond;*/
+    background-image: url(../IMG/pooh.png);
+    background-repeat:no-repeat;
+    background-position: 300px; 
+    background-size: contain;
+    background-attachment: fixed;
+    /*background: #202001 url(../IMG/pooh.png) no-repeat fixed;*/
+}
+
+#contenedor2{
+    height: 1200px;
+}

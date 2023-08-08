@@ -1,0 +1,37 @@
+/*section{
+    background: black;
+    color: yellow;
+    font-size: 40px;
+}
+div{
+    background-color: red;
+}
+h2{
+    background-color: green;
+}
+*/
+
+/* Un elemento que este dentro de otro. se presenta con un espacio */
+header p{
+    background: black;
+    color: white;
+}
+
+aside p{
+    background: rgb(218, 61, 61);
+    color: white;
+}
+
+/* Modificar a un hijo del padre (Es parte de) se utiliza ">" */
+section > p{
+    background: blue;
+}
+/* Modificar solo un elemento que esten a despues de otro elemento*/
+h2 + li{
+    color: palevioletred;
+}
+
+/* Modificar a todos los elementos que esten a despues de otro elemento*/
+h2 ~ li{
+    color: rgb(206, 12, 77);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenedor{
+            height: 500px;
+            margin: auto;
+        }
+
+        .contenedor img{
+            height: 50%;
+        }
+
+        #imagen{
+            filter: drop-shadow(5px 5px 2px black);
+            filter: grayscale(1);
+            filter: brightness(0.5);
+            filter: contrast(0.1);
+            filter: hue-rotate(50deg);
+            filter: invert(1);
+            filter: saturate(.5);
+            filter: opacity(0.8);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <img id="imagen" src="IMG/pooh.png" alt="pooh">
+        <img id="imagen2" src="IMG/pooh.png" alt="pooh">
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+#boton{
+    background: #ffffff;
+    color: rgb(52, 75, 75);
+}
+
+.contenedor{
+    background:rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.programacion{
+    color: red;
+}
+
+.baseDeDatos{
+    color: yellow;
+}

@@ -1,0 +1,11 @@
+/*
+hexadecimal
+rgb-> (red,green,blue)
+rgba -> " +  alfa
+hsl -> matriz, saturación, luminosidad
+hsla -> " + alfa
+nombre de color.
+*/
+h1{
+    color: blue;
+}

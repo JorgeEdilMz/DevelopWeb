@@ -1,0 +1,19 @@
+section {
+    background-color:black; 
+}
+
+section div{
+    width: 50%;
+    height: 200px;
+    overflow-y: scroll;
+    margin: 10px 10px 10px 10px;
+    padding: 50px 10px 10px 10px;
+}
+
+#uno {
+    background-color: beige;
+}
+
+#dos {
+    background: blueviolet;
+}
